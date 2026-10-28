@@ -1,4 +1,4 @@
-# Computational Review Template
+# Event Cognition and Emotional Arousal in Autobiographical Memory
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21213212.svg)](https://doi.org/10.5281/zenodo.21213212)
 
@@ -44,9 +44,11 @@ equivalents before any of this runs.
 5. **Start a new session** and paste your review prompt:
 
 ```
-Start a comprehensive critical literature review titled: "[YOUR TITLE]"
+Start a comprehensive critical literature review titled: "Event Cognition and Emotional Arousal in Autobiographical Memory” 
 
-GitHub Repository: https://github.com/[YOUR-ORG]/[YOUR-REPO]
+Research question: How do event segmentation and emotional arousal during an experience shape which events are included in later autobiographical narratives of that experience?
+
+GitHub Repository: https://github.com/atasevac/Event-Cognition-and-Emotional-Arousal-in-Autobiographical-Memory
 Clone it into the workspace. The files in its skills/ folder define the complete pipeline;
 nothing needs to be installed — follow the "Runtime: Claude Science" section of the orchestrator.
 
@@ -61,17 +63,34 @@ skills/comprev-figure-construction.md — Section writers use it for figure prod
 
 Push all outputs to this repo in Phase 20.
 
-Evidence parameters: [OPTIONAL — omit for defaults]
-- Target ≥200 papers per cluster, snowball 2 rounds
-- Saturation criterion: <2% new unique in last 100
-- Total bibliography target: ≥1000
+Scope and priorities:
+
+1. Focus on which experiences are included, omitted, emphasized, or reorganized in later autobiographical narratives. 
+2. Give event segmentation, causal relations, and emotional arousal equal conceptual attention, examining their separate contributions, shared mechanisms, and interactions across encoding, consolidation, retrieval, narration, and retelling. Consider event structure and boundaries alongside arousal intensity, duration, and change, distinguishing arousal from valence.
+3. Examine relationships among the locus coeruleus, amygdala, hippocampus, and relevant cortical networks. Evaluate LC → amygdala → hippocampus → cortex as a candidate sequence alongside direct, parallel, and reciprocal pathways. Distinguish causal interventions from associations and animal evidence from human evidence.
+4. Integrate the work of Robyn Fivush, Monisha Pasupathi, Kate McLean, and related researchers throughout the relevant evidence sections. Use these researchers as starting points rather than an exclusive author list. Address social and developmental influences on remembering, listener and audience effects, storytelling goals, autobiographical reasoning, meaning-making, narrative identity, self-continuity, and emotion regulation.
+5. Integrate Event Segmentation Theory; the Event Horizon Model; Structured Event Memory and SEM 2.0, including prediction-error- and uncertainty-gated variants; Event Memory Retrieval and Comparison (EMRC); latent-cause inference accounts; the Event-Indexing Model; Bayesian models of action segmentation using causal and statistical structure; causal-network models of narrative comprehension; temporal-context and retrieved-context models, including TCM, CMR, eCMR, and boundary-reset accounts; the locus coeruleus–norepinephrine network-reset hypothesis; and dynamic emotional-context accounts throughout the relevant sections. Distinguish accounts of perceptual boundary formation from accounts of memory organization and retrieval, and distinguish formal computational models from verbal theories and proposed neural mechanisms. Compare their predictions concerning prediction error, uncertainty, causal and goal continuity, emotional valence and arousal, within-event binding, across-event separation, and memory updating. Identify which predictions have direct empirical support and which are proposed extensions, and use unresolved differences to motivate experiments that distinguish perceptual segmentation from its consequences for memory.
+6. Develop evidence-based future directions connecting event segmentation, causal cognition, and emotional arousal, separately and jointly, to later narrative inclusion, omission, and emphasis. Treat the approaches below as provisional starting points, and consider alternative paradigms, tasks, manipulations, and experimental designs suited to the research question and available methods. For laboratory approaches, propose traditional behavioral and neuroimaging studies with typical participants. Also propose studies with epilepsy patients undergoing clinical intracranial monitoring, using continuous iEEG recording with the possibility of electrical stimulation of multiple implanted regions. Potential stimuli include movies and videos of first-person experiences, presented on computer screens or in immersive VR. Include narrative elicitation alongside other memory assessments.
+
+   For naturalistic approaches, propose experiments involving approximately 11–19 participants with responsive neurostimulation (RNS) implants and medial temporal lobe electrodes, with neural recordings synchronized to mobile eye-tracking, first-person video, audio, GPS, accelerometry, and autonomic physiology during freely paced exploration of aquariums, arboretums, or museums across approximately 2–4 days. Recording from the same channels during exploration and subsequent memory tests is expected to be feasible. A provisional plan is for participants to retrospectively segment their own videos after memory testing, with independent observers providing additional normative segmentation measures for each video. Consider paired visits involving independent exploration and experience-sharing conversations during the day, at day’s end, or the following day, including their potential influence on subsequent remembering and narration. The specific paradigms, narrative and memory assessments, retention intervals, procedure order, conversation conditions, and randomization remain open; propose alternatives and explain their scientific value and feasibility.
+
+Evidence parameters:
+- min_papers_per_cluster: 30
+- saturation_criterion: null
+- snowball_rounds: 2
+- total_bibliography_target: 230
+
+Search across cognitive neuroscience, computational cognitive neuroscience, cognitive psychology, causal cognition, affective cognitive neuroscience, experimental psychology, and social, and developmental psychology as appropriate. Include relevant theoretical and qualitative contributions alongside quantitative studies.
 
 Table of Contents:
 1. Introduction
-2. [Your Section 2]
-3. [Your Section 3]
-...
-N. Conclusion
+2. Event Cognition 
+3. The Causal Structure 
+4. Affect 
+5. Autobiographical Narratives
+6. An Integrated Account of Event Selection in Autobiographical Narratives
+7. Conflicting Evidence, Open Questions, and Future Directions 
+8. Conclusion
 ```
 
 6. The pipeline populates `content/`, `evidence/`, `figures/`, and `provenance/`

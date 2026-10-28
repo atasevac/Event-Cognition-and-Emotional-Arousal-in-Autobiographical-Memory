@@ -28,7 +28,7 @@ The *protocol* (phases, gates, information barriers, validator checks) is portab
 orchestration calls are not, so an agent on another platform must map them to its own
 equivalents before any of this runs.
 
-1. **Create a new repo** from this template (Use this template → Create a new repository)
+1. **For a new review, create a repository** from [the original ComputationalReviewTemplate](https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate) using Use this template → Create a new repository.
 2. **Make the new repo yours.** Six files carry this template's identity, and a review that
    leaves them untouched publishes the template's DOI, copyright and links as its own:
    - `myst.yml` — `title`, `description`, `keywords`, the `github:` URL, and `site.title` / `site.nav` GitHub URL
@@ -36,7 +36,7 @@ equivalents before any of this runs.
    - `content/authors.yml` — real author names and affiliations (Phase 20V fails on placeholders)
    - `README.md` — replace or delete the DOI badge and the How to Cite block; both point at
      *this template's* Zenodo record, not your review
-   - `LICENSE` — the copyright holder
+   - `LICENSE` — preserve the original template copyright and MIT license notices; add a separate notice for your own contributions where appropriate
    - `.github/ISSUE_TEMPLATE/config.yml` — add your own contact link if you want one
 3. **Enable GitHub Pages**: Settings → Pages → Source: **GitHub Actions**. Creating a repo from
    a template does not enable it, and the deploy job fails without it.
@@ -46,7 +46,7 @@ equivalents before any of this runs.
 ```
 Start a comprehensive critical literature review titled: "Event Cognition and Emotional Arousal in Autobiographical Memory” 
 
-Research question: How do event segmentation and emotional arousal during an experience shape which events are included in later autobiographical narratives of that experience?
+Research question: How do event representations, causal understanding, and affective processes shape which experienced events are included, omitted, emphasized, or reorganized in later autobiographical narratives?
 
 GitHub Repository: https://github.com/atasevac/Event-Cognition-and-Emotional-Arousal-in-Autobiographical-Memory
 Clone it into the workspace. The files in its skills/ folder define the complete pipeline;
@@ -76,9 +76,9 @@ Scope and priorities:
 
 Evidence parameters:
 - min_papers_per_cluster: 30
-- saturation_criterion: null
+- Saturation criterion: <2% new unique in last 100
 - snowball_rounds: 2
-- total_bibliography_target: 230
+- total_bibliography_target: ≥230
 
 Search across cognitive neuroscience, computational cognitive neuroscience, cognitive psychology, causal cognition, affective cognitive neuroscience, experimental psychology, and social, and developmental psychology as appropriate. Include relevant theoretical and qualitative contributions alongside quantitative studies.
 
@@ -251,9 +251,9 @@ what produced it rather than what someone typed.
 
 MIT
 
-## How to Cite
+## Template attribution
 
-If you use this template in your research, please cite:
+This review uses the ComputationalReviewTemplate software. The citation and DOI below identify that software template, not this review:
 
 ```bibtex
 @software{lecoq_2026_21213212,

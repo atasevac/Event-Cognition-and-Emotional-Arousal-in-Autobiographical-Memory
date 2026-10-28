@@ -2,14 +2,27 @@ version: 1
 extends:
   - content/authors.yml
 project:
-  title: "REVIEW TITLE — Update in myst.yml"
-  subtitle: A Reproducible Computational Review
+  title: "Cognition and Affect in Autobiographical Narratives: The Roles of Event Segmentation and Emotional Arousal"
+  subtitle: A Synthesis of Literatures from Event Cognition, Emotional Memory, and Autobiographical Memory
   description: >
-    Update this description for your review topic.
+    A critical review of how the stream of experience is transformed into autobiographical 
+    memory. The review evaluates cognitive, affective, computational, and neural evidence
+    and integrates social, developmental, and narrative accounts of memory. It develops 
+    future research directions for laboratory and naturalistic approaches, with implications for
+    storytelling, meaning-making, narrative identity, and emotion regulation.
   keywords:
-    - neuroscience
-    - critical review
-    - reproducible research
+    - event cognition
+    - affective neuroscience
+    - cognitive neuroscience
+    - causal cognition 
+    - autobiographical memory
+    - narrative
+    - meaning-making
+    - emotion regulation
+    - naturalistic neuroscience
+    - multimodal recording
+    - intracranial EEG
+    - naturalistic memory
   license: MIT
   open_access: true
   numbering:

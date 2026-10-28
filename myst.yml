@@ -38,7 +38,7 @@ project:
     - https://github.com/AllenNeuralDynamics/AuthorshipExtractor/releases/latest/download/authorship-plugin.mjs
     - plugins/evidence-explorer-plugin.mjs
     - plugins/figure-lightbox-plugin.mjs
-  github: https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate
+  github: https://github.com/atasevac/Event-Cognition-and-Emotional-Arousal-in-Autobiographical-Memory
   bibliography:
     - content/references.bib
   toc:
@@ -59,7 +59,7 @@ project:
       template: ./latex/template
 site:
   template: book-theme
-  title: "Computational Review"
+  title: "Cognition and Affect in Autobiographical Narratives: The Roles of Event Segmentation and Emotional Arousal"
   nav:
     - title: GitHub
-      url: https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate
+      url: Cognition and Affect in Autobiographical Narratives: The Roles of Event Segmentation and Emotional Arousal

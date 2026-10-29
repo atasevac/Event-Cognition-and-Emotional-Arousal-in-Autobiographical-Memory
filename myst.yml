@@ -2,7 +2,7 @@ version: 1
 extends:
   - content/authors.yml
 project:
-  title: "Cognition and Affect in Autobiographical Narratives: The Roles of Event Segmentation and Emotional Arousal"
+  title: "Event Cognition and Emotional Arousal in Autobiographical Memory"
   subtitle: A Synthesis of Literatures from Event Cognition, Emotional Memory, and Autobiographical Memory
   description: >
     A critical review of how the stream of experience is transformed into autobiographical 
@@ -59,7 +59,7 @@ project:
       template: ./latex/template
 site:
   template: book-theme
-  title: "Cognition and Affect in Autobiographical Narratives: The Roles of Event Segmentation and Emotional Arousal"
+  title: "Event Cognition and Emotional Arousal in Autobiographical Memory"
   nav:
     - title: GitHub
       url: https://github.com/atasevac/Event-Cognition-and-Emotional-Arousal-in-Autobiographical-Memory

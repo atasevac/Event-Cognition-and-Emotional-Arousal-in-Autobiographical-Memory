@@ -61,7 +61,24 @@ Pass it to every LITREVIEW delegation.
 
 skills/comprev-figure-construction.md — Section writers use it for figure production.
 
-Push all outputs to this repo in Phase 20.
+OUTPUT AND PUBLICATION OVERRIDE — PRIVATE PDF ONLY
+
+Use this GitHub repository only as a read-only source of the review instructions and supporting files:
+https://github.com/atasevac/Event-Cognition-and-Emotional-Arousal-in-Autobiographical-Memory
+
+Clone it into the Claude Science workspace. Keep all generated review content, evidence, figures, source files, and outputs within this session’s workspace and unshared session artifacts. Do not push or upload any changes or outputs to GitHub, create pull requests or releases, deploy GitHub Pages, or publish the review on any public website or sharing link.
+
+This requirement overrides any conflicting publishing instructions in the README, orchestrator, worker skills, or validators. Record it in the session plan and provenance, preserve it across context compaction, and pass it to all delegated agents.
+
+Complete the scientific review workflow, including evidence gathering, criticism, citation verification, final corrections, and the Methods/provenance refresh. Preserve the scientific and reproducibility checks.
+
+Replace Phase 20’s repository push and Phase 20V’s remote verification with local final-output assembly and verification. Replace Phase 21’s deployment checks with final PDF quality checks. Record checks that specifically require publishing as “not applicable: private PDF delivery requested.” Do not claim that the review was published or that deployment checks passed. Local builds are permitted.
+
+After all final corrections, compile the complete review into review_manuscript.pdf, including the title and authors, abstract, all review chapters, figures and captions, tables, Methods, and bibliography. Verify that the PDF contains the final corrected content, that citations and cross-references resolve, and that figures, tables, and page layouts are readable. Provide static equivalents for any essential content that otherwise depends on interactive website features.
+
+You may repair configuration or build errors in the cloned workspace, without pushing those changes. If PDF compilation remains blocked, report the specific problem and preserve the source files; do not publish a website as a fallback.
+
+Deliver the actual PDF as a downloadable file in this conversation so I can save it on my personal computer.
 
 Scope and priorities:
 

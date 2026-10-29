@@ -1,7 +1,5 @@
 # Event Cognition and Emotional Arousal in Autobiographical Memory
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21213212.svg)](https://doi.org/10.5281/zenodo.21213212)
-
 Template repository for producing comprehensive AI-assisted critical literature reviews using the Expert Review Pipeline v30.
 
 ## Pipeline Overview
@@ -38,9 +36,8 @@ equivalents before any of this runs.
      *this template's* Zenodo record, not your review
    - `LICENSE` — preserve the original template copyright and MIT license notices; add a separate notice for your own contributions where appropriate
    - `.github/ISSUE_TEMPLATE/config.yml` — add your own contact link if you want one
-3. **Enable GitHub Pages**: Settings → Pages → Source: **GitHub Actions**. Creating a repo from
-   a template does not enable it, and the deploy job fails without it.
-4. **Connect GitHub** in Claude Science (Customize → Credentials) with push access to the new repo
+3. Keep website deployment disabled.
+4. Use the repository as a read-only source in Claude Science.
 5. **Start a new session** and paste your review prompt:
 
 ```
@@ -111,8 +108,8 @@ Table of Contents:
 ```
 
 6. The pipeline populates `content/`, `evidence/`, `figures/`, and `provenance/`
-7. GitHub Actions builds and deploys the MyST site to GitHub Pages
-
+7. Claude Science compiles the final corrected review into a downloadable PDF.
+8. 
 ## What's Included
 
 ### Skills (21 files in `skills/`)
